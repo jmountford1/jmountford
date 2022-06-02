@@ -1,0 +1,66 @@
+/* this is for the navigation links at the top */
+
+.topnav {
+    font-family: 'Roboto';
+    text-decoration: none;
+    display: inline-flex;
+    flex: wrap;
+    width: 100%;
+    z-index: 10;
+    border-bottom: 2px solid grey;
+}
+
+.toplink:active {
+    text-decoration: none;
+    color: grey;
+}
+
+
+.toplink:visited {
+    text-decoration: none;
+    color: grey;
+    
+}
+
+.toplink:hover {
+    color: black;
+    text-decoration: underline;
+    font-style: italic;
+    font-size: 27px;
+}
+.toplink {
+    padding: 30px;
+    text-decoration: none;
+    font-family: roboto;
+    font-weight: 300;
+    font-size: 25px;
+    text-align: center;
+    color: grey;
+}
+.toplink:link {
+    color: grey;
+    text-decoration: none;
+}
+
+
+.mainlink {
+    font-size: 40px;
+    left: 0px;
+    text-decoration: none;
+    color: black;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 40px;
+    display: relative;
+    line-height: 100px;;
+    text-align: center;
+    padding-right: 150px;
+}
+.mainlink:hover {
+    text-decoration: none;
+}
+
+.mainlink:active {
+    text-decoration: none;
+}
+

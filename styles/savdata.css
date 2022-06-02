@@ -1,0 +1,12 @@
+.headimg {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+body p {
+    font-family: Roboto;
+    font-size: 30px;
+    text-align: center;
+}

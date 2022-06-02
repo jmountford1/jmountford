@@ -1,0 +1,41 @@
+/* this is the style sheet applied to the about page ONLY*/
+
+.main {
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.main img {
+    padding: 50px;
+    border-radius: 15%;
+    height: 100%;
+
+}
+
+p {
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 300;
+    line-height: 35px;
+    min-width: 300px;
+    width: 645px;
+}
+
+.headimg {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}

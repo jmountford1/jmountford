@@ -1,0 +1,41 @@
+/* this is the style sheet applied to the teaching page ONLY*/
+
+.main {
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    padding: 90px;
+}
+
+.main img {
+    padding: 50px;
+    border-radius: 15%;
+    height: 100%;
+
+}
+
+p {
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 300;
+    line-height: 35px;
+    min-width: 250px;
+    width: 700px;
+}
+
+.headimg {
+    width: 100%;
+    z-index: 1;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    float: none;
+}
